@@ -17,6 +17,7 @@
 - [Netlists](#netlists)
 - [NgSpice Plots](#ngspice-plots)
 - [GAW Plots](#gaw-plots)
+- [Observations](#Observations)
 - [Steps to run generate NgVeri Model](#steps-to-run-generate-ngveri-model)
 - [Steps to run this project](#steps-to-run-this-project)
 - [Acknowlegdements](#acknowlegdements)
