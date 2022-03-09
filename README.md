@@ -146,10 +146,36 @@ endmodule
 ![image](https://user-images.githubusercontent.com/92450677/157474496-7eefbbcc-371b-46a7-83aa-c655b86414da.png)
 
 ## Netlists
-![image]()
+```
+* C:\Users\User\Desktop\esim\zerocrossing\zerocrossing.cir
+
+* EESchema Netlist Version 1.1 (Spice format) creation date: 03/09/22 20:10:19
+
+* To exclude a component from the Spice Netlist add [Spice_Netlist_Enabled] user FIELD set to: N
+* To reorder the component spice node sequence add [Spice_Node_Sequence] user FIELD and define sequence: 2,1,0
+
+* Sheet Name: /
+X1  ? Net-_C1-Pad1_ Net-_R1-Pad2_ Net-_X1-Pad4_ ? Clk_in Net-_X1-Pad7_ ? lm_741		
+v2  GND Net-_X1-Pad4_ DC		
+R2  Net-_R1-Pad2_ Clk_in 12k		
+R1  GND Net-_R1-Pad2_ 10k		
+R3  Net-_C1-Pad1_ Clk_in 10k		
+C1  Net-_C1-Pad1_ GND 1u		
+U1  Clk_in plot_v1		
+U3  Clk_in Net-_U2-Pad1_ adc_bridge_1		
+U2  Net-_U2-Pad1_ Net-_U2-Pad2_ aishwarya_frequencydivider		
+U4  Net-_U2-Pad2_ Clk_Out dac_bridge_1		
+U5  Clk_Out plot_v1		
+v1  Net-_X1-Pad7_ GND DC		
+
+.end
+```
 ## NgSpice Plots
-![image]()
-![image]()
+1. Clk_In
+2. Clk_Out
+3. Combined Output
+	![OutputWaveforms](https://user-images.githubusercontent.com/92450677/157475299-aea37f77-59cd-4d93-a774-64201bd9de5c.png)
+
 
 ![image]()
 ![image]()
