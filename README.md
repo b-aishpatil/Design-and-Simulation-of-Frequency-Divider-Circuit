@@ -4,6 +4,7 @@
 - [Reference Circuit Diagram](#reference-circuit-diagram)
 - [Reference Waveform](#reference-waveform)
 - [Circuit Details](#circuit-details)
+- [Working](#Working)
 - [Software Used](#software-used)
   * [eSim](#esim)
   * [NgSpice](#ngspice)
@@ -34,22 +35,22 @@ This repository represents the design and simulation of mixed signal circuit -  
 
 ## Circuit Details
 
-__Opamp Multivibrator:
+**Opamp Multivibrator:**
 
 The Op-amp Multivibrator is an astable oscillator circuit that generates a square wave using an RC timing network connected to the inverting input of the operational amplifier and a voltage divider network connected to the other non-inverting input.
 It has two states, neither of which are stable as it is constantly switching between these two states with the time spent in each state controlled by the charging or discharging of the capacitor through a resistor.
 
-The Time period of the square wave is given by:
-T=2RC ln(1+Beta/1-Beta)
-Where, Beta=R2/R1+R2
+The Time period of the square wave is given by:<br>
+```T = 2RC ln(1 + β / 1 - β )``` <br>
+```Where, β = R2/R1+R2```
 
-Divide-by-8/ Mod-8 Counter: 
+**Divide-by-8/ Mod-8 Counter:**
 
 The three chain D-flipflops which acts as a negative-edge-triggered up-asynchronous counter (Ripple Counter).
-The first D flip-flop is clocked by the external clock pulse and then each successive flip-flop is clocked by the complemented output of the preceding flip-flop. First flipflop toggles at the negative edge of external clock pulse. Second and third flipflops toggles at every negative clock edge of preceding output of the flipflop.
+The first D flip-flop is clocked by the external clock pulse(fclk) and then each successive flip-flop is clocked by the complemented output of the preceding flip-flop. First flipflop toggles at the negative edge of external clock pulse. Second and third flipflops toggles at every negative clock edge of preceding output of the flipflop.
 One flip-flop will divide the clock, ƒclk by 2, second flip-flops will divide ƒclk by 4 and thus after third flipflop, we will get frequency ƒclk divide by 8.
 
-
+## Working
 
 ## Software Used
 ### eSim
