@@ -76,7 +76,7 @@ https://www.veripool.org/verilator/
 The following is the schematic in eSim:
 ![image]()
 ## Verilog Code
-<hr>
+
 ```
 module Aishwarya_frequencyDivider ( clk,out_clk );
 
