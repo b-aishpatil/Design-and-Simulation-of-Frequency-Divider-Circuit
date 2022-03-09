@@ -78,6 +78,10 @@ The following is the schematic in eSim:
 ## Verilog Code
 
 ```
+
+    // Project  : 	 Frequency divider by 8
+    // By       :	 Aishwarya Balkrishna Patil
+
 module Aishwarya_frequencyDivider ( clk,out_clk );
 
 output out_clk;
@@ -97,7 +101,10 @@ assign out_clk = m[2];
 
 endmodule
 ```
+
 <hr>
+
+## Makerchip
 
 ```
 \TLV_version 1d: tl-x.org
@@ -134,12 +141,6 @@ endmodule
 //Add \TLV here if desired                                     
 \SV
 endmodule
-```
-<hr>
-## Makerchip
-```
-
-
 ```
 ## Makerchip Plots
 ![image]()
