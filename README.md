@@ -171,11 +171,14 @@ v1  Net-_X1-Pad7_ GND DC
 .end
 ```
 ## NgSpice Plots
-1. **Clk_In** <br>
+1. **Clk_In** 
+<br> <br>
 	![image](https://user-images.githubusercontent.com/92450677/157475634-c9e74fc6-b44b-4ff8-b5dc-f1de0902d26d.png) <hr>
-2. **Clk_Out** <br>
+2. **Clk_Out** 
+<br> <br>
 	![image](https://user-images.githubusercontent.com/92450677/157475716-7cae2a09-0854-46e6-afcd-b0ea98cbc1f2.png) <hr>
-3. **Combined Output** <br>
+3. **Combined Output** 
+<br> <br>
 	![OutputWaveforms](https://user-images.githubusercontent.com/92450677/157475299-aea37f77-59cd-4d93-a774-64201bd9de5c.png) <hr>
 
 
