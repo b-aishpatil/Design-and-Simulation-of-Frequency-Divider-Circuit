@@ -146,7 +146,7 @@ endmodule
 
 ## Netlists
 ```
-* C:\Users\User\Desktop\esim\zerocrossing\zerocrossing.cir
+* C:\Users\User\Desktop\esim\Frequency_Divider\Frequency_Divider.cir
 
 * EESchema Netlist Version 1.1 (Spice format) creation date: 03/09/22 20:10:19
 
