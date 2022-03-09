@@ -225,6 +225,7 @@ Operating Voltage of the circuit is 5V
 
 ## References
 [1] https://www.electronics-tutorials.ws/counter/count_1.html
+
 [2] https://www.tutorialspoint.com/linear_integrated_circuits_applications/linear_integrated_circuits_applications_waveform_generators.htm
 
 
