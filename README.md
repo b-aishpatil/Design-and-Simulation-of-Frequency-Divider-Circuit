@@ -75,7 +75,7 @@ https://www.veripool.org/verilator/
 
 ## Circuit Diagram in eSim
 The following is the schematic in eSim:
-![image]()
+![image](https://user-images.githubusercontent.com/92450677/157487847-9996fe5d-5dfe-4dd1-937c-673a241f006a.png)
 ## Verilog Code
 
 ```
