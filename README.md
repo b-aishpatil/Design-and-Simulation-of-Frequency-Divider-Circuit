@@ -23,7 +23,8 @@
 
 
 ## Abstract
-
+Analog and digital applications require the use of frequency division to tailor the signal according to the circuit requirements.
+This repository represents the design and simulation of mixed signal circuit -  'Frequency Divider' using Opamp Multivibrator (Analog Circuit) and MOD-8 Up Negative edge triggered Counter (Digital Circuit).  The Op-amp Multivibrator is an astable oscillator circuit that generates a rectangular output waveform and counter divides the frequency of that waveform by 8. 
 
 ## Reference Circuit Diagram
 ![image]()
