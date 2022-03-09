@@ -52,6 +52,8 @@ One flip-flop will divide the clock, Æ’clk by 2, second flip-flops will divide Æ
 
 ## Working
 
+The opamp multivibrator generates square wave. This wave is converted into digital form using ADC and given as input as external clock pulse to the counter. Counter divides the clock frequency by 8. The waveform with new frequency is passed through DAC to get the final output waveform into analog signal. 
+
 ## Software Used
 ### eSim
 It is an Open Source EDA developed by FOSSEE, IIT Bombay. It is used for electronic circuit simulation. It is made by the combination of two software namely NgSpice and KiCAD.
