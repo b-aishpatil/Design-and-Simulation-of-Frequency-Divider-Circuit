@@ -182,7 +182,16 @@ v1  Net-_X1-Pad7_ GND DC
 	![OutputWaveforms](https://user-images.githubusercontent.com/92450677/157475299-aea37f77-59cd-4d93-a774-64201bd9de5c.png) <hr>
 
 ## GAW Plots
-![image]()
+![image](https://user-images.githubusercontent.com/92450677/157482901-14257573-a03c-446c-820f-543bebd09298.png)
+
+## Observations
+```
+Operating Voltage of the circuit is 5V
+Beta=R2/R1+R2 =10/22=0.4545
+T=2RC ln(1+Beta/1-Beta) =0.0196 s = 19.6ms
+```
+
+
 ## Steps to run generate NgVeri Model
 1. Open eSim
 2. Run NgVeri-Makerchip 
