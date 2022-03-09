@@ -194,7 +194,6 @@ Operating Voltage of the circuit is 5V
 	T = 2 * R * C * ln( 1 + β / 1 - β) 
 	  = 0.0196 s 
 	  = 19.6ms
-
 ```
 
 
