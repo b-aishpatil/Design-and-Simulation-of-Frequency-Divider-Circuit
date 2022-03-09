@@ -181,9 +181,6 @@ v1  Net-_X1-Pad7_ GND DC
 <br> <br>
 	![OutputWaveforms](https://user-images.githubusercontent.com/92450677/157475299-aea37f77-59cd-4d93-a774-64201bd9de5c.png) <hr>
 
-
-![image]()
-![image]()
 ## GAW Plots
 ![image]()
 ## Steps to run generate NgVeri Model
