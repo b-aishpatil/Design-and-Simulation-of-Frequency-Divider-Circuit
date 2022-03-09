@@ -188,10 +188,10 @@ v1  Net-_X1-Pad7_ GND DC
 ## Observations
 ```
 Operating Voltage of the circuit is 5V
-	β = R2 \frac R1 + R2 
+	β = R2 / R1 + R2 
 	  = 10 / 22
 	  = 0.4545
-	T = 2*R*C* ln( 1 + β / 1 - β) 
+	T = 2 * R * C * ln( 1 + β / 1 - β) 
 	  = 0.0196 s 
 	  = 19.6ms
 
